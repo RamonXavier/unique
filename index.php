@@ -25,7 +25,7 @@
       <footer class="login__footer">
         <input type="submit" value="Acessar">
         <div class="tooltip"><span class="icon icon--info">?</span>
-          <span class="icon icon--info tooltipHover">Caso você tenha perdido, esquecido ou não sabe sua senha, 
+          <span class="icon icon--info tooltipHover">Caso você tenha perdido ou esquecido sua senha, 
             clique neste link para recuperá-la</span><a href="#">Esqueceu sua senha?</a>
         </div>
         <p id="retorno"></p>
