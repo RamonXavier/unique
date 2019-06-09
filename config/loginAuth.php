@@ -2,10 +2,10 @@
 include 'connect.php';
 include 'functionLogin.php';
 
-$nome = $_POST['nomeUsuario'];
-$senha = $_POST['senha'];
+$email = $_POST['emailUsuario'];
+$senha = $_POST['senhaUsuario'];
 
-if(validaLogin($connect, $nome, $senha)){
+if(validaLogin($connect, $email, $senha)){
     header('location: ../views/estruture/sidebar.php');
 }else{
     echo 'erro';
